@@ -1,0 +1,36 @@
+# ==========================================
+# Ghostty Config: 12-bit Rainbow + Frosted Glass
+# ==========================================
+
+# --- 指定内置主题 ---
+theme = 12-bit Rainbow
+
+# --- 背景透明度与毛玻璃特效 ---
+background-opacity = 0.8
+background-blur-radius = 25
+
+# --- 窗口装饰 (Linux/Wayland/X11) ---
+window-decoration = true
+
+# --- 字体与渲染 ---
+font-thicken = true
+font-size = 9
+
+# --- 光标与交互 ---
+cursor-style = block
+cursor-style-blink = true
+mouse-hide-while-typing = true
+
+# --- 细节优化 ---
+adjust-cell-height = 2%
+unfocused-split-opacity = 0.7
+
+# --- 窗口留白与滚动 ---
+window-padding-x = 12
+window-padding-y = 12
+scrollback-limit = 10000
+confirm-close-surface = true
+
+# --- 合并标签栏与标题栏，加载自定义样式 ---
+gtk-titlebar-style = tabs
+gtk-custom-css = ~/.config/ghostty/titlebar-transparency.css
